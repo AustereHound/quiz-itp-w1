@@ -13,8 +13,8 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
+    e_free = ''
     for char in a_string:
-        e_free = ''
         if char != 'e' and char != 'E':
             e_free += char
-        return e_free            
+    return e_free           
